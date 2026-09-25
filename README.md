@@ -4,7 +4,7 @@ A responsive developer portfolio built with semantic HTML, modern CSS (Flexbox &
 
 ## Live Demo
 - **Live Site:** https://navaneethaguntha.github.io/devfolio/
-- **Repository:** https://github.com/<navaneethaguntha>/devfolio
+- **Repository:** https://github.com/navaneethaguntha/devfolio
 
 ## Features
 - **Semantic HTML5:** Built using `<header>`, `<main>`, `<section>`, and `<footer>` tags.
