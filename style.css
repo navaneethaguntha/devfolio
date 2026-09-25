@@ -1,0 +1,45 @@
+ :root {
+  --brand: #2563eb;
+  --bg: #f8fafc;
+  --text: #0f172a;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  margin: 0;
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Flexbox Header/Nav */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: var(--brand);
+}
+
+/* CSS Grid Projects Section (Default: 1 Column Mobile) */
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+/* Desktop Responsive Breakpoint (2 Columns) */
+@media (min-width: 768px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
