@@ -2,6 +2,7 @@
 
 A responsive developer portfolio built with semantic HTML, modern CSS (Flexbox & CSS Grid), and responsive media queries.
 
+
 ## Live Demo
 - **Live Site:** https://navaneethaguntha.github.io/devfolio/
 - **Repository:** https://github.com/navaneethaguntha/devfolio
